@@ -1,0 +1,34 @@
+# Computer vision
+# Note: mediapipe depends on opencv-contrib-python; do not install opencv-python alongside it
+opencv-contrib-python>=4.9.0
+mediapipe==0.10.11
+
+# Deep learning (FER model)
+# On Apple Silicon: standard PyPI build includes MPS support — do NOT use --index-url cpu wheel
+torch>=2.2.0
+torchvision>=0.17.0
+
+# ML (stress classifier)
+xgboost>=2.0.3
+scikit-learn>=1.4.0
+numpy>=1.26.0
+pandas>=2.2.0
+
+# Explainability
+shap>=0.45.0
+
+# macOS system integration
+pyobjc-framework-Cocoa>=10.3
+pyobjc-framework-AppKit>=10.3
+
+# Input monitoring
+pynput>=1.7.7
+
+# UI
+PyQt6>=6.6.0
+
+# Utilities
+joblib>=1.3.0
+imbalanced-learn>=0.12.0
+tqdm>=4.66.0
+Pillow>=10.2.0
