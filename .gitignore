@@ -51,6 +51,3 @@ models/shap/
 # (~80 MB EfficientNet-B0 checkpoint; download or train separately)
 models/fer_model/
 
-# ── Binary / compiled artefacts ───────────────────────────────────────────
-# ARCHITECTURE.md is the source of truth; the PDF is a derived binary.
-ARCHITECTURE.pdf
